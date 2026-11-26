@@ -26,8 +26,8 @@ Everything runs on the phone with Apple's free on-device model. No account, no A
 
 ## Run it on your iPhone
 
-1. Download or clone this repository and open its `Package.swift` in Xcode.
-2. In **Signing & Capabilities**, choose your own team (a free Personal Team works) and change the bundle identifier from `com.example.deardiary` to something unique, like `com.yourname.deardiary`.
+1. Download or clone this repository and open `DearDiary.xcodeproj` in Xcode.
+2. Select the DearDiary target, open **Signing & Capabilities**, choose your own team (a free Personal Team works) and change the bundle identifier from `com.example.deardiary` to something unique, like `com.yourname.deardiary`.
 3. Connect your iPhone, turn on Developer Mode (Settings › Privacy & Security), and press **Run**.
 4. The first time, trust your developer profile on the iPhone in Settings › General › VPN & Device Management.
 
@@ -38,6 +38,7 @@ With a free Personal Team the app expires after 7 days; press Run again to reins
 - **Your voice:** the examples in `StyleGuide.swift` are lines from Dear Lisbon diary. Replace them with your own lines and what was in each photo. The app copies their voice, so this matters more than anything else. It also learns from the captions you keep.
 - **Your city:** tap the city in the title to add cities. Only photos taken within 35 km of the selected city are used.
 - **Your type:** caption size, margins and line spacing are in `CaptionSpec` in `ImageStyler.swift`.
+- **Your icon:** the app icon is `DearDiary/AppIcon.icon`, a Liquid Glass icon made in Icon Composer. Open it there to change it.
 
 ## How the captions are made
 
